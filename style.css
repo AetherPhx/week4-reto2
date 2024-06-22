@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+	width: 375px;
+	background-color: hsl(244, 38%, 16%);
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+
+img { width: 100%;
+}
+
+.content{
+	padding: 30px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 20px;
+}
+
+h1 {
+	font-family: 'Lexend Deca', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.title-color {
+	color: hsl(277, 64%, 61%);
+}
+
+.parrafo, span {
+	color: hsla(0, 0%, 100%, 0.6);
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+}
+
+.stats {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 15px;
+}
+
+.stat{ text-align: center;
+}
+
+h2{ 
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 16px;
+	color: #fff
+}
